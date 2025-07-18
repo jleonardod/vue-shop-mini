@@ -1,0 +1,3 @@
+<template>
+  <h1 class="bg-black text-white">Navbar</h1>
+</template>

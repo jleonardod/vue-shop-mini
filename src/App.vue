@@ -1,9 +1,13 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import Navbar from './components/Navbar.vue';
 </script>
 
 <template>
-  <RouterView />
+  <Navbar />
+  <main>
+    <RouterView />
+  </main>
+  
 </template>
 
 <style scoped>
