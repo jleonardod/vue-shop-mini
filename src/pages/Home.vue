@@ -1,9 +1,14 @@
 <template>
-  <h1>Hola mundo</h1>
+  <ProductCard 
+    v-for="product in products" 
+    :key="product.id" 
+    :product="product"
+  />
 </template>
 
 <script setup>
 import { ref, onMounted } from 'vue'
+import ProductCard from '../components/ProductCard.vue'
 
 const products = ref([])
 
