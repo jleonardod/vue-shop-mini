@@ -5,7 +5,7 @@ defineProps({
 </script>
 
 <template>
-  <router-link to="/" class="flex flex-col h-[400px] items-center border-2 border-[#E5E7EB] bg-white hover:bg-purple-900 hover:border-purple-900 transition-colors rounded-lg ">
+  <router-link :to="`/product/${product.id}`" class="flex flex-col h-[400px] items-center border-2 border-[#E5E7EB] bg-white hover:bg-purple-900 hover:border-purple-900 transition-colors rounded-lg ">
     <div class="w-full bg-white rounded-t-lg h-[70%] row-span-3 py-4 px-2">
       <img :src="product.image" alt="" class="object-contain w-full h-full" />
     </div>
