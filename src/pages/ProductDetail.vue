@@ -23,7 +23,7 @@ export default {
 </script>
 
 <template>
-  <div class="p-4 bg-[#F4F4F5] gap-y-4 flex flex-col">
+  <div class="p-4 min-h-screen bg-[#F4F4F5] gap-y-4 flex flex-col">
     <div class="w-2/5 flex gap-x-2 text-gray-700">
       <button @click="$router.back()" class="cursor-pointer transition-colors hover:text-black"><ArrowLeft /></button>
       <div class="flex items-center gap-x-2 font-semibold transition-all">
