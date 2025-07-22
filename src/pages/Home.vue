@@ -2,8 +2,8 @@
   <div class="flex">
     <div class="w-full bg-[#F4F4F5] text-white p-4 flex flex-col gap-y-4">
       <div>
-        <h2 class="font-bold text-3xl text-[#111827]">Nuestros Productos</h2>
-        <p class="text-sm text-[#111827]">Prueba cualquiera de nuestros productos, te aseguramos que no te arrepentirás</p>
+        <h2 class="font-bold text-3xl text-[#111827]">Our Products</h2>
+        <p class="text-sm text-[#111827]">Explore our collection — quality you can trust, satisfaction guaranteed.</p>
       </div>
       <div class="grid grid-cols-4 gap-y-5 gap-x-4">
         <ProductCard 
